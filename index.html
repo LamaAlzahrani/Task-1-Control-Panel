@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Motors</title>
+    
+   <link rel="stylesheet" href="style.css">   
+   
+</head>
+
+<body>
+    
+    <div class = "slideContainer">
+    
+        <iframe name="myframe" id="myframe" style="display: none;"></iframe>
+        <form id="myForm" action="index.php" method = "post" target="myframe">
+
+         
+        <h3>Motor1</h3>
+        <div class = "motor1">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange1" class = "slider" name = "m1">
+        <p>Value: <span id = "value1"></span></p>
+        </div>
+
+        <br>
+        <h3>Motor2</h3>
+        <div class = "motor2">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange2" class = "slider" name = "m2">
+        <p>Value: <span id = "value2"></span></p>
+        </div>
+
+        
+        <br>
+        <h3>Motor3</h3>
+        <div class = "motor3">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange3" class = "slider" name = "m3">
+        <p>Value: <span id = "value3"></span></p>
+        </div>
+
+        <br>
+        <h3>Motor4</h3>
+        <div class = "motor4">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange4" class = "slider" name = "m4">
+        <p>Value: <span id = "value4"></span></p>
+        </div>
+
+        <br>
+        <h3>Motor5</h3>
+        <div class = "motor5">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange5" class = "slider" name = "m5">
+        <p>Value: <span id = "value5"></span></p>
+        </div>
+
+        <br>
+        <h3>Motor6</h3>
+        <div class = "motor6">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange6" class = "slider" name = "m6">
+        <p>Value: <span id = "value6"></span></p>
+        </div>
+
+        <center>
+        <input type="submit" value = "Save" name = save style="border-radius: 40px; font-size: 40px; color: black; background-color: rgb(177, 177, 177);"  > 
+        <br> <br>
+        <input type="submit" value = "Run" name = run style="border-radius: 40px; font-size: 40px; color: black; background-color: rgb(177, 177, 177);"   >
+        </center>
+
+
+
+        </form>
+    </div> 
+</body>
+<script src="main.js"></script>
+</html>
